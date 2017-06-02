@@ -1,0 +1,31 @@
+{
+  "name": "@deskproapps/app-reply-requirements",
+  "version": "0.1.0",
+  "description": "Allow an agent to reply only if a set of rules is satisfied",
+  "main": "lib/main/javascript/index.js",
+  "scripts": {
+    "release": "npm_bump",
+    "dev": "dpat server .",
+    "package": "dpat package .",
+    "test": "dpat test ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DeskproApps/app-reply-requirements.git"
+  },
+  "keywords": [
+    "deskpro"
+  ],
+  "author": "Deskpro",
+  "license": "BSD-3-Clause",
+  "bugs": {
+    "url": "https://github.com/DeskproApps/app-reply-requirements/issues"
+  },
+  "homepage": "https://github.com/DeskproApps/app-reply-requirements#readme",
+  "devDependencies": {
+    "@deskproapps/deskproapps-sdk-core": "1.0.0-alpha.4",
+    "error-wrapper": "2.1.0",
+    "react": "15.5.3",
+    "react-dom": "15.5.3"
+  }
+}
