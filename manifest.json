@@ -1,5 +1,6 @@
 {
   "version": "2.0.0",
+  "appVersion": "0.1.0",
   "name": "app-reply-requirements",
   "title": "Reply Requirements",
   "description": "Assign a ticket automatically to the agent when viewing it, if the ticket is unassigned.",
