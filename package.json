@@ -21,8 +21,11 @@
     "url": "https://github.com/DeskproApps/app-reply-requirements/issues"
   },
   "homepage": "https://github.com/DeskproApps/app-reply-requirements#readme",
+  "dependencies": {
+    "@deskproapps/deskproapps-sdk-core": "^1.0.0-alpha.9"
+  },
   "devDependencies": {
-    "@deskproapps/deskproapps-sdk-core": "1.0.0-alpha.7",
+    "@deskproapps/dpat": "0.3.4",
     "error-wrapper": "2.1.0",
     "react": "15.5.3",
     "react-dom": "15.5.3"
