@@ -1,11 +1,11 @@
 {
   "name": "@deskproapps/app-reply-requirements",
-  "version": "0.1.0",
+  "version": "0.1.2",
   "description": "Allow an agent to reply only if a set of rules is satisfied",
   "main": "lib/main/javascript/index.js",
   "scripts": {
     "dev": "dpat server .",
-    "package": "dpat clean . && dpat compile . && dpat package .",
+    "package": "dpat clean . && dpat compile . && dpat verify ./dist && dpat package .",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -15,7 +15,11 @@
   "keywords": [
     "deskpro"
   ],
-  "author": "Deskpro",
+  "author": {
+    "name" : "Deskproapps",
+    "email": "apps@deskpro.com",
+    "url": "https://www.deskpro.com"
+  },
   "license": "BSD-3-Clause",
   "bugs": {
     "url": "https://github.com/DeskproApps/app-reply-requirements/issues"
@@ -24,8 +28,21 @@
   "dependencies": {
     "@deskproapps/deskproapps-sdk-core": "^1.0.0-alpha.9"
   },
+  "deskpro": {
+    "version": "2.0.0",
+    "title": "Reply Requirements",
+
+    "isSingle": true,
+    "scope": "agent",
+    "targets": [
+      { "target": "background", "url": "html/index.html" }
+    ],
+    "settings": [],
+    "deskproApiTags": [],
+    "externalApis": []
+  },
   "devDependencies": {
-    "@deskproapps/dpat": "0.3.4",
+    "@deskproapps/dpat": "0.4.3",
     "error-wrapper": "2.1.0",
     "react": "15.5.3",
     "react-dom": "15.5.3"

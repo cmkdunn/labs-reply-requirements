@@ -41,4 +41,4 @@ you a nice live preview.
 
 ## Documentation
 
- View online docs at: https://deskproapps.github.io/app-auto-self-assign
+ View online docs at: https://deskproapps.github.io/app-reply-requirements

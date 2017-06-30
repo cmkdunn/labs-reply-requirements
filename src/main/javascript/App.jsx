@@ -12,6 +12,7 @@ export default class App extends React.Component
     const { dpapp } = this.props;
 
     dpapp.context.on('context.ticket.reply', (sendResponse, tabData) => {
+      console.log('tabData ', tabData);
       const { api_data: ticket } = tabData;
       const response = this.onTicketReply(ticket, tabData);
       sendResponse(null, response);
@@ -21,7 +22,7 @@ export default class App extends React.Component
   onTicketReply = (ticket, tabData) =>
   {
     const deny = runRuleset(denyReplyRuleset, ticket, tabData);
-    return deny ? { allowReply: false, reason: 'You cannot reply before adding a timelog entry.' } : { allowReply: true }
+    return deny ? { allowReply: false, reason: 'You must add a time log entry before you can reply.' } : { allowReply: true }
   };
 
   shouldComponentUpdate() { return false; }
