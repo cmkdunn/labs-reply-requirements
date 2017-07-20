@@ -1,6 +1,6 @@
 {
   "name": "@deskproapps/labs-reply-requirements",
-  "version": "0.1.4",
+  "version": "0.1.4-beta.1",
   "description": "Allow an agent to reply only if a set of rules is satisfied",
   "main": "lib/main/javascript/index.js",
   "scripts": {
@@ -26,7 +26,7 @@
   },
   "homepage": "https://github.com/DeskproApps/labs-reply-requirements#readme",
   "dependencies": {
-    "@deskproapps/deskproapps-sdk-core": "1.0.0-beta.1"
+    "@deskproapps/deskproapps-sdk-core": "1.0.0-beta.2"
   },
   "deskpro": {
     "version": "2.1.0",

@@ -3,9 +3,9 @@
   "version": "0.1.4",
   "dependencies": {
     "@deskproapps/deskproapps-sdk-core": {
-      "version": "1.0.0-beta.1",
-      "from": "@deskproapps/deskproapps-sdk-core@1.0.0-beta.1",
-      "resolved": "https://registry.npmjs.org/@deskproapps/deskproapps-sdk-core/-/deskproapps-sdk-core-1.0.0-beta.1.tgz"
+      "version": "1.0.0-beta.2",
+      "from": "@deskproapps/deskproapps-sdk-core@1.0.0-beta.2",
+      "resolved": "https://registry.npmjs.org/@deskproapps/deskproapps-sdk-core/-/deskproapps-sdk-core-1.0.0-beta.2.tgz"
     },
     "ansi-regex": {
       "version": "2.1.1",
