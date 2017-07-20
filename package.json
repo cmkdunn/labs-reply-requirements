@@ -1,6 +1,6 @@
 {
-  "name": "@deskproapps/app-reply-requirements",
-  "version": "0.1.3",
+  "name": "@deskproapps/labs-reply-requirements",
+  "version": "0.1.4",
   "description": "Allow an agent to reply only if a set of rules is satisfied",
   "main": "lib/main/javascript/index.js",
   "scripts": {
@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/DeskproApps/app-reply-requirements.git"
+    "url": "git+https://github.com/DeskproApps/labs-reply-requirements.git"
   },
   "keywords": [
     "deskpro"
@@ -22,11 +22,11 @@
   },
   "license": "BSD-3-Clause",
   "bugs": {
-    "url": "https://github.com/DeskproApps/app-reply-requirements/issues"
+    "url": "https://github.com/DeskproApps/labs-reply-requirements/issues"
   },
-  "homepage": "https://github.com/DeskproApps/app-reply-requirements#readme",
+  "homepage": "https://github.com/DeskproApps/labs-reply-requirements#readme",
   "dependencies": {
-    "@deskproapps/deskproapps-sdk-core": "1.0.0-alpha.10"
+    "@deskproapps/deskproapps-sdk-core": "1.0.0-beta.1"
   },
   "deskpro": {
     "version": "2.1.0",
@@ -42,7 +42,7 @@
     "externalApis": []
   },
   "devDependencies": {
-    "@deskproapps/dpat": "0.4.4",
+    "@deskproapps/dpat": "0.4.9",
     "error-wrapper": "2.1.0",
     "react": "15.5.3",
     "react-dom": "15.5.3"

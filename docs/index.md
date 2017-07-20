@@ -1,4 +1,4 @@
-# app-reply-requirements
+# labs-reply-requirements
 
 Allow an agent to reply only if a set of rules is satisfied.
 
@@ -11,7 +11,7 @@ By default, it comes with only two rules which prevent the agent from replying *
 
 ## Changing the rules
 
-The easiest and recommended way to change the rules is by editing the default ruleset from the rulesets file: [src/main/javascript/Rulesets](https://github.com/DeskproApps/app-reply-requirements/blob/master/src/main/javascript/Rulesets.js)
+The easiest and recommended way to change the rules is by editing the default ruleset from the rulesets file: [src/main/javascript/Rulesets](https://github.com/DeskproApps/labs-reply-requirements/blob/master/src/main/javascript/Rulesets.js)
 
 The initial file looks like this:
 
