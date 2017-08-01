@@ -7,6 +7,7 @@ export const denyReply = {
     [
       (ticket, tabData) => tabData.hasTimeLog,
       (ticket, tabData) => ticket.charges.length === 0
+      (ticket, tabData) => tabData.department && [5, 6, 8].indexOf(tabData.department.id) !== -1
     ]
   ]
 };
